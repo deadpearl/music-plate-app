@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.error-page {
+    background-image:url(https://catherineasquithgallery.com/uploads/posts/2023-02/1676604930_catherineasquithgallery-com-p-zhelto-zeleno-chernii-fon-142.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100vh;
+
+    padding:100px 20px;
+}
+
+.error-page-content {
+    color:#fff;
+    max-width:550px;
+    display:inline-block;
+}
+
+.error-page-content h1 {
+    font-size:220px;
+    font-weight:800;
+}
+
+.error-page-content h2 {
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+.error-page-content .btn.btn-primary {
+    margin-top:35px;
+    background-color:#bf677f;
+    padding:17px 35px;
+    border-bottom:2px solid #995164;
+}
+
+.error-page-content .btn.btn-primary:hover {
+    border-bottom:2px solid #bf677f;
+    color:#fff;
+}
+
+
+.btn {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 17px 20px;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}

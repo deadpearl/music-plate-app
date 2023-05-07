@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background {
+    height: 100vh;
+    background: url("https://images.wallpaperscraft.com/image/single/dark_black_and_white_abstract_black_background_76353_1920x1080.jpg") no-repeat center;
+    background-size: cover;
+    color: white;
+    font-size: 1.8rem;
+}
+.container {
+    text-align: center;
+
+    /*background-color: rgba(256 , 256,256,0.5);*/
+}
+.nav-button {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    border: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border-radius: 11px;
+}
+.nav-button:hover {
+    background-color: white;
+    color:black;
+    font-size: 1.25rem;
+}
+.nav-button:active {
+    background-color: white;
+    color: black;
+    transition: .75s;
+}
+
+.active:nth-child(1) {
+    background-color: white;
+    color: black;
+    transition: .75s;
+}
+
+.navbar {
+    background-color: rgba(90 , 90, 90,0.8);
+}
+
+input {
+    border:none;
+    border-radius: 10px;
+    margin:10px;
+    width:270px;
+    padding: 15px;
+    background: rgba(0 , 0, 0,0.8);
+    color:white;
+    text-underline-color: white;
+    font-size: 1.3rem;
+
+}
+
+::placeholder{
+    color:white;
+}
+
+.add-btn {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border-radius: 11px;
+}
+.newform{
+    background: rgba(50 , 50, 50,0.8);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 700px;
+    margin-left: 400px;
+}
+.add-btn:hover {
+    background-color: dimgrey;
+    color:white;
+}
